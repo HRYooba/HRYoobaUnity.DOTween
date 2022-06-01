@@ -1,0 +1,14 @@
+{
+  "name": "com.hryooba.library.dotween",
+  "displayName": "HRYoobaLibrary.DOTween",
+  "version": "1.0.0",
+  "unity": "2021.2",
+  "description": "Unity HRYooba Library\nDOTween Extentions",
+  "author": {
+    "name": "HRYooba"
+  },
+  "type": "library",
+  "dependencies": {
+    "com.demigiant.dotween": "1.2.632"
+  }
+}
