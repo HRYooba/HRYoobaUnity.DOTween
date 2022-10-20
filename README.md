@@ -5,19 +5,5 @@ ProjectSetting/PackageManagerから以下のScopeRegistriesを設定
 - URL: `https://package.openupm.com`
 - Scope: `com.hryooba.library`
 
-PackageManagerからMyRegistriesを選択しパッケージを入れる。
-
-## 2.依存ライブラリ
-以下のスコープを追加してください。
-```json
-  "scopedRegistries": [
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.demigiant.dotween",
-      ]
-    }
-  ]
-```
-
+PackageManagerからMyRegistriesを選択しパッケージを入れる。  
+PlayerSettings - Other SettingsからScripting Define Symbolsに`HRYOOBA_LIBRARY_DOTWEEN_SUPPORT`を定義

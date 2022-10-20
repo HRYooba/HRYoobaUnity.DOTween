@@ -1,3 +1,4 @@
+#if HRYOOBA_LIBRARY_DOTWEEN_SUPPORT
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -41,8 +42,8 @@ namespace HRYooba.Library
 
         public float Value
         {
-            set { _value = value; }
             get { return _value; }
+            set { _value = value; }
         }
     }
 
@@ -58,8 +59,8 @@ namespace HRYooba.Library
 
         public Vector2 Value
         {
-            set { _value = value; }
             get { return _value; }
+            set { _value = value; }
         }
     }
 
@@ -75,8 +76,8 @@ namespace HRYooba.Library
 
         public Vector3 Value
         {
-            set { _value = value; }
             get { return _value; }
+            set { _value = value; }
         }
     }
 
@@ -92,8 +93,9 @@ namespace HRYooba.Library
 
         public Color Value
         {
-            set { _value = value; }
             get { return _value; }
+            set { _value = value; }
         }
     }
 }
+#endif
