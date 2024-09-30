@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-namespace HRYooba.Library
+namespace HRYooba.DOTween
 {
     public static class DOTweenExtension
     {

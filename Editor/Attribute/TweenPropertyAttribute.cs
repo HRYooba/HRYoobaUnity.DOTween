@@ -2,9 +2,9 @@
 using System;
 using UnityEngine;
 using UnityEditor;
-using HRYooba.Library;
+using HRYooba.DOTween;
 
-namespace HRYooba.Editor
+namespace HRYooba.DOTween.Editor
 {
     [CustomPropertyDrawer(typeof(FloatTweenProperty))]
     public class FloatTweenPropertyDrawer : PropertyDrawer
