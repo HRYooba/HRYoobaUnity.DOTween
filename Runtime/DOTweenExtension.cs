@@ -1,6 +1,4 @@
 #if HRYOOBA_LIBRARY_DOTWEEN_SUPPORT
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
@@ -10,22 +8,22 @@ namespace HRYooba.DOTween
     {
         public static Tween DOFloat(this FloatTweenProperty target, float endValue, float duration)
         {
-            return DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
+            return DG.Tweening.DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
         }
 
         public static Tween DOVector3(this Vector3TweenProperty target, Vector3 endValue, float duration)
         {
-            return DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
+            return DG.Tweening.DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
         }
 
         public static Tween DOVector2(this Vector2TweenProperty target, Vector2 endValue, float duration)
         {
-            return DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
+            return DG.Tweening.DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
         }
 
         public static Tween DOColor(this ColorTweenProperty target, Color endValue, float duration)
         {
-            return DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
+            return DG.Tweening.DOTween.To(() => target.Value, value => target.Value = value, endValue, duration);
         }
     }
 
