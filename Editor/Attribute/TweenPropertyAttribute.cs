@@ -1,4 +1,3 @@
-#if HRYOOBA_LIBRARY_DOTWEEN_SUPPORT
 using System;
 using UnityEngine;
 using UnityEditor;
@@ -42,4 +41,3 @@ namespace HRYooba.DOTween.Editor
         }
     }
 }
-#endif

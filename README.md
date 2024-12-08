@@ -6,4 +6,3 @@ ProjectSetting/PackageManagerから以下のScopeRegistriesを設定
 - Scope: `com.hryooba`
 
 PackageManagerからMyRegistriesを選択しパッケージを入れる。  
-PlayerSettings - Other SettingsからScripting Define Symbolsに`HRYOOBA_LIBRARY_DOTWEEN_SUPPORT`を定義

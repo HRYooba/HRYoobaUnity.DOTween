@@ -1,4 +1,3 @@
-#if HRYOOBA_LIBRARY_DOTWEEN_SUPPORT
 using UnityEngine;
 using DG.Tweening;
 
@@ -96,4 +95,3 @@ namespace HRYooba.DOTween
         }
     }
 }
-#endif
